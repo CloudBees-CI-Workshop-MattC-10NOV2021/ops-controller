@@ -1,14 +1,13 @@
 apiVersion: "1"
-version: "1"
-id: "CloudBees-CI-Workshop-MattC-10NOV2021-ops-controller"
-description: "CloudBees CI configuration bundle for the CloudBees-CI-Workshop-MattC-10NOV2021 ops-controller Controller"
-availabilityPattern: "cloudbees-ci-casc-workshop/cloudbees-ci-workshop-mattc-10nov2021/ops-controller"
+version: "4"
+id: "cbci-casc-workshop-ops-controller"
+description: "CloudBees CI configuration bundle for the cbci-casc-workshop ops-controller Controller"
+parent: "base"
+availabilityPattern: "{GitHub Org}/{controller name}"
 jcasc:
   - "jcasc/"
 plugins:
   - "plugins.yaml"
 items:
   - "items.yaml"
-catalog:
-  - "plugin-catalog.yaml"
 
