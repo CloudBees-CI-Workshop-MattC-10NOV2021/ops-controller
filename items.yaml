@@ -5,7 +5,7 @@ items:
 - kind: folder
   displayName: controller-jobs
   name: controller-jobs
-   properties:
+  properties:
   - envVars: {}
   - kubernetesFolderProperty: {}
   - itemRestrictions:
