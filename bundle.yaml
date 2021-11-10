@@ -4,7 +4,7 @@ id: "CloudBees-CI-Workshop-MattC-10NOV2021-ops-controller"
 description: "CloudBees CI configuration bundle for the CloudBees-CI-Workshop-MattC-10NOV2021 ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/cloudbees-ci-workshop-mattc-10nov2021/ops-controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/"
 plugins:
   - "plugins.yaml"
 items:
